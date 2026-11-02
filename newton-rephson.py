@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="뉴턴-랩슨법", page_icon="🧮")
 st.title("🧮 뉴턴-랩슨법")
-st.write("뉴턴-랩슨법을 이용하여 √2의 근삿값을 구하는 프로그램입니다.").
+st.write("뉴턴-랩슨법을 이용하여 √2의 근삿값을 구하는 프로그램입니다.")
 st.divider()
 
 st.subheader("📖 계산 원리")
