@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="뉴턴-랩슨법", page_icon="🧮")
 st.title("🧮 뉴턴-랩슨법")
-x = st.number_input("양수를 입력하시오")
+x = st.number_input("양수를 입력하시오", index = None)
 cnt = 0
 
 if x <= 0:
