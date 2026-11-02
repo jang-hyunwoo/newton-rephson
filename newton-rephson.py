@@ -3,6 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="뉴턴-랩슨법", page_icon="🧮")
 st.title("🧮 뉴턴-랩슨법")
 st.subheader("√2의 근삿값 구하기")
+st.divider()
 
 x = st.number_input("양수를 입력하시오", value = None)
 
