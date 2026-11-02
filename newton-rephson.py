@@ -10,10 +10,11 @@ if st.button("계산하기"):
     cnt = 0
     if x <= 0:
         st.error("0보다 큰 양수를 입력하시오.")
-    while True:
-        cnt = cnt + 1
-        x = 1/2 * (x + 2/x)
-        if abs(x ** 2 - 2) < 0.00001:
-            break
+    else:
+        while True:
+            cnt = cnt + 1
+            x = 1/2 * (x + 2/x)
+            if abs(x ** 2 - 2) < 0.00001:
+                break
     
-    st.info(f'총 실행 횟수는 {cnt}번이며, 최종 근삿값은 {x}입니다.')
+        st.info(f'총 실행 횟수는 {cnt}번이며, 최종 근삿값은 {x}입니다.')
